@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.cmdann.rootchecker"
-    android:versionCode="6"
-    android:versionName="6.0" >
+    android:versionCode="7"
+    android:versionName="7.2" >
 
     <uses-sdk
         android:minSdkVersion="8"
@@ -12,6 +12,7 @@
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
+        android:screenOrientation="portrait"
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.cmdann.rootchecker.MainActivity"
@@ -22,9 +23,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-     
     </application>
-    
-    <uses-permission android:name="android.permission.INTERNET" />
-    
+
 </manifest>
