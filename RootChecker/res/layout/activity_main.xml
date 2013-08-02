@@ -6,35 +6,6 @@
     android:background="@drawable/background"
     tools:context=".MainActivity" >
 
-    <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:src="@drawable/rootprivileges" />
-
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:background="@drawable/button"
-        android:minHeight="70dp"
-        android:text="Verify Root Access"
-        android:textColor="@color/defaultTextColor" />
-
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/button1"
-        android:text="System Information:"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:textColor="@color/defaultTextColor" />
-
     <TableLayout
         android:id="@+id/tableLayout1"
         android:layout_width="wrap_content"
@@ -148,6 +119,7 @@
                 android:text="Notes:"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="@color/defaultTextColor" />
+
         </TableRow>
 
         <TableRow
@@ -195,13 +167,42 @@
         </TableRow>
     </TableLayout>
 
+    <FrameLayout
+        android:id="@+id/frameLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2" >
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/button"
+        android:minHeight="70dp"
+        android:text="Verify Root Access"
+        android:textColor="@color/defaultTextColor" />
+
     <TextView
         android:id="@+id/TextView07"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/imageView1"
-        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button1"
         android:text="ROOT STATUS:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/defaultTextColor" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:text="System Information:"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="@color/defaultTextColor" />
 
@@ -209,16 +210,10 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/imageView1"
         android:layout_below="@+id/TextView07"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
         android:background="@drawable/button2"
         android:text=" " />
-
-    <FrameLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/imageView1"
-        android:layout_below="@+id/button2" >
-    </FrameLayout>
 
 </RelativeLayout>

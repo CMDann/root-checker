@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="googleanalyticsandroid">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/Add-ons/googleanalyticsandroid/libGoogleAnalyticsV2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/Add-ons/googleanalyticsandroid/javadocs.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
