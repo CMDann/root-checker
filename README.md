@@ -1,5 +1,7 @@
 <h1>Root-Checker</h1>
 
+<a href="https://coderwall.com/cmdann"><img alt="Endorse CMDann on Coderwall" src="https://api.coderwall.com/cmdann/endorsecount.png" /></a>
+
 <p>This application will not root your device but serves as a tool to verify your root access. When you run the application if you get a check mark this means you have root access and if you get an 'X' you do not. I can not guarantee that the application will be 100% accurate.
 I have tested it on the following devices with success:</p>
 <ul>
